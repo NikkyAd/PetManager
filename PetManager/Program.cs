@@ -21,7 +21,7 @@ namespace PetManager
             if (data.ownerAndTheirPets != null)
             {
                 // Get Pets of Pet types listed
-                List<PetType> getPetsOfType = new List<PetType>() { PetType.Dog };
+                List<PetType> getPetsOfType = new List<PetType>() { PetType.Cat };
 
                 IPetService petService = new PetService();
                 OutputService outPutService = new OutputService();
