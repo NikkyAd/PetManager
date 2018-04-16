@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Converter.cs" />
+    <Compile Remove="Gender.cs" />
+    <Compile Remove="Owner.cs" />
+    <Compile Remove="Pet.cs" />
+    <Compile Remove="PetType.cs" />
+    <Compile Remove="Pets\QuestionStrategyFactory.cs" />
+    <Compile Remove="Services\IInputDataService.cs" />
+    <Compile Remove="Services\InputDataReaderService.cs" />
+    <Compile Remove="Services\JsonConverter.cs" />
+    <Compile Remove="Services\JsonDataService.cs" />
+    <Compile Remove="Services\PetManagerService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>
